@@ -1,0 +1,14 @@
+{
+  "proxy": {
+    "/userChat/ws": {
+      "target": "ws://localhost:8283",
+      "ws": true
+    },
+    "/userChat/upload-photo": {
+      "target": "http://localhost:8283"
+    },
+    "/userChat/photos": {
+      "target": "http://localhost:8283"
+    }
+  }
+}
